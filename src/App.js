@@ -1,5 +1,3 @@
-//Part One Done: 34:23seconds
-
 import React, { useState } from "react";
 
 import "./App.css";
@@ -23,7 +21,7 @@ function App() {
         inputText={inputText}
         setInputText={setInputText}
       />
-      <ToDoList />
+      <ToDoList todos={todos} setTodos={setTodos} />
     </div>
   );
 }
